@@ -1,0 +1,16 @@
+---
+- name: Install dependencies
+  apt:
+    name: software-properties-common
+    state: latest
+
+- name: Enable CRI-O repository
+  apt_repository:
+    repo: "{{ crioRepoUbuntu }}"
+    state: present
+
+- name: Install CRI-O
+  apt:
+    name: cri-o
+    state: latest
+    update_cache: true

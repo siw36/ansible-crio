@@ -1,0 +1,25 @@
+galaxy_info:
+  author: Robin 'siw36' Klussmann
+  description: Ansible role to install CRI-O as container runtime
+  company: replicas.io
+
+  license: GPL-3.0-only
+
+  min_ansible_version: 2.6
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - 16.04
+  - name: RedHat
+    versions:
+    - 7.4
+    - 7.5
+    - 7.6
+
+  galaxy_tags:
+    - crio
+    - container
+    - runtime
+
+dependencies: []

@@ -1,0 +1,7 @@
+---
+kernelModules:
+  - overlay
+  - br_netfilter
+
+crioRepoRHEL: https://cbs.centos.org/repos/paas7-crio-311-candidate/x86_64/os/
+crioRepoUbuntu: ppa:projectatomic/ppa
